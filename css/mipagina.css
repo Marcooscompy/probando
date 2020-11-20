@@ -1,0 +1,71 @@
+*{
+   margin: 0;
+   padding: 0;
+ 
+}
+body{
+    width: auto;
+    height: auto;
+    background: white;
+    }
+nav{
+    margin-top: 20px;
+    width: auto;
+    height: 60px;
+    background: white;
+}
+
+
+nav:hover{
+    transition: .3s all;
+    transform: translate(0,-10px)
+}
+
+nav ul{
+    display: inline;
+}
+
+nav li{
+    display: inline;
+}
+header{
+    width: auto;
+    height: auto;
+    border: 10px;
+    background: white;
+}
+
+section:hover{
+    transition: .3s all;
+    transform: translate(0,-10px)
+}
+main{
+    width: auto;
+    height: 960;
+}
+.barra{
+    width: auto;
+    height: 20px;
+    background: #800000;
+}
+.izquierda{
+    margin-right:1%; 
+    width: 29%;
+    height: auto;
+    float: left;
+    background: white;
+}
+.derecha{
+    width: 29%;
+    height: auto;
+    float: right;
+    background: floralwhite;
+}
+.centro{
+    width: 39%;
+    height: auto;
+    float: left;
+    background: white;
+    
+  
+}
